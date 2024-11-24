@@ -1,120 +1,82 @@
-Hemali Chotalia
-23BHI10073
-GDG
-WTM
-TASK1
-_
-_
-Blockchain-Based Scholarship Fund: Bridging the Gender
-Gap in STEM
-It leverages blockchain technology to create a decentralised, transparent
-scholarship fund for women in STEM.
-Gender Inequality in STEM:
-1.Women represent only 28% of the global STEM workforce.
-2.They deal with educational biases and discriminatory hiring practices.
-3.Financial constraints prohibit many women from pursuing advanced
-degrees in STEM professions.
-Fig 1:Women in T ech Statistics
-Current Scholarship Challenges:
-● Lack of Transparency: Traditional scholarship programs can
-suffer from corruption or misallocation of funds.
-● Bias and Inequality: Women in STEM face systemic barriers in
-accessing funding and educational resources.
-● Trust Issues: Donors are often unsure whether their contributions
-are reaching deserving candidates.
-Key features:
-● Transparency: All transactions are permanent and visible to all
-participants.Increases confidence between funders, recipients, and
-stakeholders.
-● Decentralisation: No central authority; reduces corruption and
-bias.Democratic access to funds and verification processes.
-● Global Access: Blockchain transcends borders, allowing women
-from any region to apply.Reduces administrative costs and
-bureaucracy.
-● Financial efficiency: Reduces brokers and operational costs,
-allowing more resources to reach recipients.
-Technical Steps:
-1. Blockchain Platform:
-○ Ethereum: For its smart contract capabilities and wide
-adoption.
-○ Hyperledger: For enterprise-grade solutions and scalability.
-2. Smart Contracts:
-○ Defining criteria: Academic performance, financial need,
-personal statement.
-○ Automate fund release upon verification.
-3. User Interfaces:
-○ Donor Portal: T o view impact metrics and donation history.
-○ Applicant Portal: Secure submission of personal details and
-verification documents.
-4. Partner with Educational Institutions:
-○ Integrate university databases for real-time academic
-verification.
-Smart Contract Workflow (Detailed Example)
-Technology Stack
-Blockchain:
-● Ethereum: For creating smart contracts.
-● IPFS (InterPlanetary File System): T o securely store documents.
-Backend:
-● Node.js: Server-side logic.
-● Python: For data validation and processing.
-Frontend:
-● React.js: Interactive web applications.
-● Bootstrap: For responsive design.
-Database:
-● MongoDB: For storing metadata.
-● PostgreSQL: For relational data.
-Scalability
-Phase 1: Pilot Launch
-● T arget a single country or region with a high gender gap in STEM.
-● Partner with universities and NGOs to promote the program.
-Phase 2: Regional Expansion
-● Integrate with global education platforms (e.g., Coursera, edX).
-● Establish corporate sponsorships with tech companies.
-Phase 3: Global Scaling
-● Multi-language support for international accessibility.
-● AI Integration: Predict future needs based on applicant trends.
-Potential Challenges
-Challenge 1: T echnological Literacy
-● Solution: Develop an easy-to-use mobile app with educational
-materials on blockchain and STEM.
-Challenge 2: Data Privacy
-● Solution: Use zero-knowledge proofs to verify eligibility without
-exposing sensitive information.
-Challenge 3: Internet Accessibility
-● Solution: Offer offline application support and integrate with
-community centres.
+# 🌟 Blockchain-Based Scholarship Fund: Bridging the Gender Gap in STEM 🌟
 
+![Women in STEM](https://example.com/path/to/header-image) <!-- Replace with an actual image URL -->
 
-Hemali Chotalia
-23BHI10073
-GDG
-WTM
-TASK2
-_
-_
-Project: Sentiment Analysis of Product Reviews
-Step 1: I downloaded a Twitter Sentiment Analysis dataset from Kaggle, which contains
-tweets and their corresponding sentiments (Positive/Negative).
-Step 2: Installed and imported the necessary libraries for the analysis
-Step 3: Data Preprocessing
-● Cleaned T ext Data:
-Removed noise (punctuation, stopwords, etc.) and tokenized the text into useful
-features.
-● Handled Missing Values:
-Ensured that both the feature matrix X and target labels y were free of NaN values
-and aligned in size.
-Step 4: Feature Extraction (TF-IDF)
-● TF-IDF (T erm Frequency-Inverse Document Frequency):
-Converts text data into numerical vectors. It reflects how important a word is in a
-document relative to the entire dataset.
-Step 5: Splitting the Data
-● Train-T est Split:
-○ Training Set (80%): Used to train the model.
-○ T est Set (20%): Used to evaluate model performance.
-Step 6: Model Training
-● Logistic Regression:
-Fitted the model using the training data (X_train and y_train).
-Step 7: Predictions:
-Used the test data (X_test) to predict sentiments.
-Evaluation Metrics:
-Calculated accuracy, precision, recall, and F1-score to assess performance.
+## 🚀 Project Overview
+This project leverages **blockchain technology** to create a **decentralized, transparent scholarship fund** aimed at supporting women in STEM. By addressing gender inequality and increasing accessibility to financial support, it empowers women to pursue advanced degrees and careers in STEM fields.
+
+---
+
+### 🎯 **Key Features**
+- **Transparency:** Immutable, publicly visible transactions build trust between donors and recipients.
+- **Decentralization:** Eliminates centralized control, reducing corruption and bias.
+- **Global Access:** Open to women from all regions, minimizing bureaucratic hurdles.
+- **Financial Efficiency:** Reduces intermediaries, ensuring more funds reach deserving candidates.
+
+---
+
+### 🛠️ **Technical Steps**
+1. **Blockchain Platform:**
+   - Ethereum: For smart contracts and broad adoption.
+   - Hyperledger: For enterprise solutions and scalability.
+
+2. **Smart Contracts:**
+   - Define eligibility criteria (academic performance, financial need).
+   - Automate fund release upon verification.
+
+3. **User Interfaces:**
+   - **Donor Portal:** Impact metrics and donation history.
+   - **Applicant Portal:** Secure submission and verification.
+
+4. **Integration:**
+   - Partner with educational institutions for real-time academic verification.
+
+---
+
+### 💻 **Technology Stack**
+| Layer       | Technologies |
+|-------------|---------------|
+| **Blockchain** | Ethereum, IPFS |
+| **Backend**   | Node.js, Python |
+| **Frontend**  | React.js, Bootstrap |
+| **Database**  | MongoDB, PostgreSQL |
+
+---
+
+### 📈 **Scalability Roadmap**
+1. **Pilot Launch:** Target a high-gender-gap region. Partner with universities and NGOs.
+2. **Regional Expansion:** Integrate with global education platforms (Coursera, edX). Seek corporate sponsorships.
+3. **Global Scaling:** Add multi-language support and AI integration for predictive analytics.
+
+---
+
+### 🛡️ **Addressing Challenges**
+- **Technological Literacy:** User-friendly mobile app and educational materials.
+- **Data Privacy:** Zero-knowledge proofs for secure verification.
+- **Internet Accessibility:** Offline application support and community center integration.
+
+---
+
+### 🤝 **Contributing**
+We welcome contributions to this project! Here's how you can help:
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a Pull Request.
+
+---
+
+### 📜 **License**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### 📫 **Contact**
+For questions, feedback, or collaboration:
+- **Email:** [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile) 
+
+---
+
+🌍 Together, let's bridge the gender gap in STEM! 💪
